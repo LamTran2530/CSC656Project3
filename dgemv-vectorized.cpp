@@ -12,7 +12,7 @@ void my_dgemv(int n, double *A, double *x, double *y)
    for (int i = 0; i < n; i++)
    {
       int row_Offset = i * n;
-      double z; 
+      double z = 0.0; 
 
       for (int j = 0; j < n; j++)
       {
