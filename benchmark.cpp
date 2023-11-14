@@ -17,7 +17,7 @@
 
 #include <cblas.h>
 #include <string.h>
-
+using namespace std;
 // external definitions for mmul's
 extern void my_dgemv(int, double*, double*, double *);
 extern const char* dgemv_desc;
@@ -102,6 +102,8 @@ int main(int argc, char** argv)
         chrono::time_point<chrono::high_resolution_clock> end_time = chrono::high_resolution_clock::now();
 
         chrono::duration<double> elapsed = end_time - start_time;
+
+	cout << " Elapsed time is : " << elapsed.count() << " " << endl;	
 
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);

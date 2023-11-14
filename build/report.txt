@@ -1,0 +1,21 @@
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:12:22: missed: couldn't vectorize loop
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:18:35: missed: not vectorized: complicated access pattern.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:15:25: missed: couldn't vectorize loop
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:18:15: missed: not vectorized: complicated access pattern.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:9:6: note: vectorized 0 loops in function.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:21:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:21:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:12:22: missed: couldn't vectorize loop
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:20:31: missed: not vectorized: complicated access pattern.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:17:25: optimized: loop vectorized using 32 byte vectors
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:17:25: optimized: loop vectorized using 16 byte vectors
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:26:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:26:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:12:22: missed: couldn't vectorize loop
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:20:31: missed: not vectorized: complicated access pattern.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:17:25: optimized: loop vectorized using 32 byte vectors
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:17:25: optimized: loop vectorized using 16 byte vectors
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:26:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/lamtran/CSC656Project3/dgemv-vectorized.cpp:26:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF
